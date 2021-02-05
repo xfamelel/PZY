@@ -1,0 +1,350 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local PZY = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local PZYLogo = Instance.new("ImageLabel")
+local PZY_2 = Instance.new("TextLabel")
+local Line = Instance.new("Frame")
+local Ragdoll2 = Instance.new("ImageButton")
+local BtnText = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UIGradient = Instance.new("UIGradient")
+local Ragdoll1 = Instance.new("ImageButton")
+local BtnText_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_2 = Instance.new("UIGradient")
+local EXIT = Instance.new("ImageButton")
+local OOF = Instance.new("ImageButton")
+local BtnText_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIGradient_3 = Instance.new("UIGradient")
+local START = Instance.new("ImageButton")
+
+--Properties:
+
+PZY.Name = "PZY"
+PZY.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Main.Name = "Main"
+Main.Parent = PZY
+Main.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Main.Position = UDim2.new(0.269270837, 0, 0.240918443, 0)
+Main.Size = UDim2.new(0, 839, 0, 364)
+
+PZYLogo.Name = "PZY Logo"
+PZYLogo.Parent = Main
+PZYLogo.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+PZYLogo.BorderSizePixel = 0
+PZYLogo.Position = UDim2.new(0.0065005403, 0, 0.0173160173, 0)
+PZYLogo.Size = UDim2.new(0, 88, 0, 73)
+PZYLogo.Image = "rbxassetid://6350709472"
+PZYLogo.ScaleType = Enum.ScaleType.Crop
+
+PZY_2.Name = "PZY"
+PZY_2.Parent = Main
+PZY_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+PZY_2.BorderSizePixel = 0
+PZY_2.Position = UDim2.new(0.101361342, 0, 0.0173160173, 0)
+PZY_2.Size = UDim2.new(0, 70, 0, 50)
+PZY_2.Font = Enum.Font.GothamBlack
+PZY_2.Text = "PZY"
+PZY_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+PZY_2.TextSize = 30.000
+
+Line.Name = "Line"
+Line.Parent = Main
+Line.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
+Line.Position = UDim2.new(-0.000650799193, 0, 0.24157095, 0)
+Line.Size = UDim2.new(0, 837, 0, 6)
+
+Ragdoll2.Name = "Ragdoll 2"
+Ragdoll2.Parent = Main
+Ragdoll2.AnchorPoint = Vector2.new(0.5, 0.5)
+Ragdoll2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ragdoll2.BackgroundTransparency = 1.000
+Ragdoll2.Position = UDim2.new(0.350408524, 0, 0.366877198, 0)
+Ragdoll2.Size = UDim2.new(0.167251125, 0, 0.119443841, 0)
+Ragdoll2.Image = "rbxassetid://2790382281"
+Ragdoll2.ImageColor3 = Color3.fromRGB(255, 0, 255)
+Ragdoll2.ScaleType = Enum.ScaleType.Slice
+Ragdoll2.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText.Name = "BtnText"
+BtnText.Parent = Ragdoll2
+BtnText.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText.BackgroundTransparency = 1.000
+BtnText.BorderSizePixel = 0
+BtnText.Position = UDim2.new(0.521818161, 0, 0.49999994, 0)
+BtnText.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText.Font = Enum.Font.GothamBlack
+BtnText.Text = "Ragdoll 2"
+BtnText.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText.TextScaled = true
+BtnText.TextSize = 10.000
+BtnText.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = Ragdoll2
+UIAspectRatioConstraint.AspectRatio = 3.042
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Offset = Vector2.new(0.400000006, 0)
+UIGradient.Rotation = -135
+UIGradient.Parent = Ragdoll2
+
+Ragdoll1.Name = "Ragdoll 1"
+Ragdoll1.Parent = Main
+Ragdoll1.AnchorPoint = Vector2.new(0.5, 0.5)
+Ragdoll1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ragdoll1.BackgroundTransparency = 1.000
+Ragdoll1.Position = UDim2.new(0.118988469, 0, 0.369624436, 0)
+Ragdoll1.Size = UDim2.new(0.167251125, 0, 0.119443841, 0)
+Ragdoll1.Image = "rbxassetid://2790382281"
+Ragdoll1.ImageColor3 = Color3.fromRGB(255, 0, 255)
+Ragdoll1.ScaleType = Enum.ScaleType.Slice
+Ragdoll1.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_2.Name = "BtnText"
+BtnText_2.Parent = Ragdoll1
+BtnText_2.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.BackgroundTransparency = 1.000
+BtnText_2.BorderSizePixel = 0
+BtnText_2.Position = UDim2.new(0.492675543, 0, 0.480291992, 0)
+BtnText_2.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_2.Font = Enum.Font.GothamBlack
+BtnText_2.Text = "Ragdoll 1"
+BtnText_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_2.TextScaled = true
+BtnText_2.TextSize = 10.000
+BtnText_2.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = Ragdoll1
+UIAspectRatioConstraint_2.AspectRatio = 3.042
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Offset = Vector2.new(0.400000006, 0)
+UIGradient_2.Rotation = -135
+UIGradient_2.Parent = Ragdoll1
+
+EXIT.Name = "EXIT"
+EXIT.Parent = Main
+EXIT.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+EXIT.Position = UDim2.new(0.939339757, 0, 0.0173160173, 0)
+EXIT.Size = UDim2.new(0, 49, 0, 50)
+EXIT.Image = "rbxassetid://6350788355"
+EXIT.ScaleType = Enum.ScaleType.Crop
+
+OOF.Name = "OOF"
+OOF.Parent = Main
+OOF.AnchorPoint = Vector2.new(0.5, 0.5)
+OOF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OOF.BackgroundTransparency = 1.000
+OOF.Position = UDim2.new(0.582828045, 0, 0.373745352, 0)
+OOF.Size = UDim2.new(0.157657862, 0, 0.111202084, 0)
+OOF.Image = "rbxassetid://2790382281"
+OOF.ImageColor3 = Color3.fromRGB(255, 0, 255)
+OOF.ScaleType = Enum.ScaleType.Slice
+OOF.SliceCenter = Rect.new(4, 4, 252, 252)
+
+BtnText_3.Name = "BtnText"
+BtnText_3.Parent = OOF
+BtnText_3.AnchorPoint = Vector2.new(0.5, 0.5)
+BtnText_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.BackgroundTransparency = 1.000
+BtnText_3.BorderSizePixel = 0
+BtnText_3.Position = UDim2.new(0.351291507, 0, 0.483818173, 0)
+BtnText_3.Size = UDim2.new(0.989716768, -5, 0.917372882, -5)
+BtnText_3.Font = Enum.Font.GothamBlack
+BtnText_3.Text = "oof"
+BtnText_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+BtnText_3.TextScaled = true
+BtnText_3.TextSize = 10.000
+BtnText_3.TextWrapped = true
+
+UIAspectRatioConstraint_3.Parent = OOF
+UIAspectRatioConstraint_3.AspectRatio = 3.042
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Offset = Vector2.new(0.400000006, 0)
+UIGradient_3.Rotation = -135
+UIGradient_3.Parent = OOF
+
+START.Name = "START"
+START.Parent = PZY
+START.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+START.Position = UDim2.new(0.0109374998, 0, 0.920856118, 0)
+START.Size = UDim2.new(0, 74, 0, 65)
+START.Image = "rbxassetid://6350709472"
+
+-- Scripts:
+
+local function RHLN_fake_script() -- Ragdoll2.Button5Script 
+	local script = Instance.new('LocalScript', Ragdoll2)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(RHLN_fake_script)()
+local function PQBYXF_fake_script() -- Ragdoll1.Button5Script 
+	local script = Instance.new('LocalScript', Ragdoll1)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(PQBYXF_fake_script)()
+local function FZZI_fake_script() -- OOF.Button5Script 
+	local script = Instance.new('LocalScript', OOF)
+
+	local btn = script.Parent
+	local uiGradient = btn:WaitForChild("UIGradient")
+	
+	local isHovering = false
+	
+	local tweenService = game:GetService("TweenService")
+	local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
+	
+	local gradientRemoveTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(-1, 0)})
+	local gradientRestoreTween = tweenService:Create(uiGradient, tweenInfo, {Offset = Vector2.new(0.4, 0)})
+	
+	
+	btn.MouseEnter:Connect(function()
+		
+		isHovering = true
+		
+		gradientRemoveTween:Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		
+		isHovering = false
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Down:Connect(function()
+		
+		gradientRestoreTween:Play()
+	end)
+	
+	btn.MouseButton1Up:Connect(function()
+		
+		if not isHovering then
+			gradientRestoreTween:Play()
+		else
+			gradientRemoveTween:Play()
+		end
+	end)
+end
+coroutine.wrap(FZZI_fake_script)()
+
+Main.Visible=false
+START.Visible=true
+
+START.MouseButton1Down:connect(function()
+	Main.Visible=true
+	Main.Draggable=true
+	START.Visible=false
+end)
+
+EXIT.MouseButton1Down:connect(function()
+	Main.Visible=false
+	Main.Draggable=false
+	START.Visible=true
+end)
+
+--BUTTONS SCRIPTING--
+
+Ragdoll2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NawMZzhW", true))()
+end)
+
+Ragdoll1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+end)
+
+OOF.MouseButton1Down:connect(function()
+	repeat game:GetService("RunService").Stepped:wait()
+		for i,v in pairs(game.Players:GetChildren()) do
+			v.Character.Head.Died.TimePosition = .15
+			v.Character.Head.Died:Play()
+		end
+	until game.Players.LocalPlayer.Character.Humanoid.Health == 0
+end)
